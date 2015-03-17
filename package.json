@@ -1,0 +1,48 @@
+{
+  "name": "passport-access-token",
+  "version": "1.0.0",
+  "description": "Local access token authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "local",
+    "token",
+    "auth",
+    "authn",
+    "authentication"
+  ],
+  "author": {
+    "name": "Christian Vaas",
+    "email": "chrisvaas@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/AuspeXeu/passport-access-token.git"
+  },
+  "bugs": {
+    "url": "http://github.com/AuspeXeu/passport-access-token/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "_id": "passport-access-token@1.0.0",
+  "_from": "passport-local@>=1.0.0 <2.0.0",
+  "_npmVersion": "1.2.25",
+  "maintainers": [
+    {
+      "name": "christianvaas",
+      "email": "chrisvaas@gmail.com"
+    }
+  ],
+  "directories": {},
+  "readme": "ERROR: No README data found!"
+}
