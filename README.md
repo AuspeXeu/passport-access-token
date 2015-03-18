@@ -35,9 +35,11 @@ credentials and calls `done` providing a user.
 
 The access token can be stored in three different locations which are configured as follows:
 
-* Inside the url the HTTP GET parameter is specified using the `tokenParam` option
-* As a HTTP HEADER field which is specified using the `tokenHeader` option
-* In the payload of a HTTP POST request where the field name is specified using the `tokenField` option
+* Inside the url the HTTP GET parameter is specified using the `tokenParam` option (default: 'token')
+* As a HTTP HEADER field which is specified using the `tokenHeader` option (default: 'accessToken')
+* In the payload of a HTTP POST request where the field name is specified using the `tokenField` option (default: 'Authorization')
+* If none of the above methods suits your purposes there is also the `extractor` option that can be supplied with a function of the signature 
+function (req) {...} which returns the access token retrieved by some custom code from the HTTP request (default: *undefined*)
 
 #### Authenticate Requests
 
