@@ -25,7 +25,7 @@ credentials and calls `done` providing a user.
         User.findOne({ onetimePassword: token }, function (err, user) {
           if (err) { return done(err); }
           if (!user) { return done(null, false); }
-          // delete the onetimePassword after the user has the a new password
+          // delete the onetimePassword after the user has set the new password
           return done(null, user);
         });
       }
