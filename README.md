@@ -1,4 +1,6 @@
-# passport-access-token
+# passport-access-token [![NPM version](https://badge.fury.io/js/passport-access-token.png)](http://badge.fury.io/js/passport-access-token)
+
+[![NPM](https://nodei.co/npm/passport-access-token.png?downloads=true&stars=true)](https://nodei.co/npm/passport-access-token/)
 
 [Passport](http://passportjs.org/) strategy for authenticating with an access token.
 
