@@ -1,4 +1,4 @@
-# passport-access-token [![NPM version](https://badge.fury.io/js/passport-access-token.png)](http://badge.fury.io/js/passport-access-token)
+# passport-access-token [![NPM version](https://badge.fury.io/js/passport-access-token.png)](http://badge.fury.io/js/passport-access-token)[![Dependencies](https://img.shields.io/david/auspexeu/passport-access-token.svg?style=flat-square)](https://david-dm.org/auspexeu/passport-access-token)
 
 [![NPM](https://nodei.co/npm/passport-access-token.png?downloads=true&stars=true)](https://nodei.co/npm/passport-access-token/)
 
