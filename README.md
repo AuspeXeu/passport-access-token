@@ -24,7 +24,7 @@ credentials and calls `done` providing a user.
     passport.use(new AccessTokenStrategy({
         tokenParam: 'token'
       }, (token, done) => {
-        User.findOne({ onetimePassword: token }, function (err, user) {
+        User.findOne({ onetimePassword: token }, (err, user) => {
           if (err) { return done(err); }
           if (!user) { return done(null, false); }
           // delete the onetimePassword after the user has set the new password
