@@ -23,7 +23,7 @@ credentials and calls `done` providing a user.
 
     passport.use(new AccessTokenStrategy({
         tokenParam: 'token'
-      }, function(token, done) {
+      }, (token, done) => {
         User.findOne({ onetimePassword: token }, function (err, user) {
           if (err) { return done(err); }
           if (!user) { return done(null, false); }
@@ -53,7 +53,7 @@ application:
 
     app.get('/login/:token', 
       passport.authenticate('token', { failureRedirect: '/login' }),
-      function(req, res) {
+      (req, res) => {
         res.redirect('/');
       });
 
