@@ -21,6 +21,7 @@ This can easily be used to create a password reset mechanism by providing the us
 The local authentication strategy authenticates users using an access token. The strategy requires a `verify` callback, which accepts these
 credentials and calls `done` providing a user.
 
+    const AccessTokenStrategy = require('passport-access-token').Strategy
     passport.use(new AccessTokenStrategy({
         tokenParam: 'token'
       }, (token, done) => {
